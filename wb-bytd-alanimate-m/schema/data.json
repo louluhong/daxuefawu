@@ -1,0 +1,72 @@
+{
+  "title": "schema名称",
+  "type": "object",
+  "properties": {
+    "moduleinfo": {
+      "type": "object",
+      "title": "模块配置信息",
+      "properties": {
+        "url1": {
+          "type": "string",
+          "title": "第二屏链接"
+        },
+        "url2": {
+          "type": "string",
+          "title": "第三屏链接"
+        },
+        "url3": {
+          "type": "string",
+          "title": "第三屏链接"
+        },
+        "box4_text1": {
+          "type": "string",
+          "title": "第五屏文案",
+          "default": "新零售时代，发展越是高速，根基越要扎实。日常经营却不了解相关法律规则，无异议蒙眼驾车。繁多的法务规则中商家如何获取最重要最关键的信息？"
+        }
+      }
+    },
+    "optioninfo": {
+      "type": "object",
+      "title": "选项配置",
+      "properties": {
+        "dynamic": {
+          "type": "string",
+          "title": "false代表禁止动态输出",
+          "default": "true"
+        },
+        "static": {
+          "type": "string",
+          "title": "false代表禁止静态输出",
+          "default": "true"
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "title": "这是字段描述",
+      "items": {
+        "type": "object",
+        "title": "这是数组的某个成员",
+        "properties": {
+          "item_img": {
+            "type": "string",
+            "title": "图片（343*252）"
+          },
+          "item_name": {
+            "type": "string",
+            "title": "名字"
+          },
+          "item_font1": {
+            "type": "string",
+            "title": "文字1"
+          },
+          "item_font2": {
+            "type": "string",
+            "title": "文字二"
+          }
+        }
+      },
+      "maxItems": 6
+    }
+  }
+}

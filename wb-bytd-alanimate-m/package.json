@@ -1,0 +1,42 @@
+{
+  "name": "wb-bytd-alanimate-m",
+  "version": "0.0.1",
+  "description": "淘宝大学无线页面",
+  "repository": {
+    "type": "git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "author": {
+    "name": "阿娄_博彦"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "upx": {
+    "screenshot": "http://g01.alibaba-inc.com/tfscom/TB1PQ3FQpXXXXckXXXXXXXXXXXX.tfsprivate.png",
+    "assets": {
+      "kimi": "0.0.233",
+      "tb-init-kimi": "*",
+      "m-base": "*",
+      "hairlines": "*"
+    },
+    "width": [
+      "100%"
+    ],
+    "type": "mod",
+    "terminalType": "mobile",
+    "tags": []
+  },
+  "eslintConfig": {
+    "root": true
+  },
+  "kitLight": {
+    "modify_time": "2017-4-12 10:17:44"
+  }
+}
